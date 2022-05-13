@@ -1,0 +1,23 @@
+Suwaki:
+	Triangulation Accuracy: wyznacza dokładność triangulacji (im wartość jest większa, tym dokładniejsza jest triangulacja)
+	Kd, Ks, m: wyznaczają wartości odpowiednio współczynników kd, ks, m, potrzebne do wyliczania koloru pixel-u
+	z: wyznacza wysokość plaszczyzny, na której porusza się światło 
+	k: wyznacza wartość współczynnika, który jest potrzebny do sprowadzenia wektora z tekstury do przestrzeni stycznej dla danego punktu
+	H: wyznacza wysokość obcięcia kuli
+Buttons:
+	Object's color: pozwala wybrać stały kolor, który jest widoczny w przypadku braku tekstury
+	Light's color: pozwala wybrać kolor światła 
+	Nullify light's moving: ustawia pozycję światła na centrum 
+	(Color/Texture groupbox)
+		Set Texture: pozwala zamienić teksturę na inną
+		1: ustawia teksturę "Lanscape.jpg"
+		2: ustawia teksturę "Wroclaw-central-market-square.jpg"
+		Set Static Color: usuwa teksturę i ustawia stały kolor na poprzednio używany
+	(Normal Map)
+		Set Normal Map: pozwala zamienić normal map na inną
+		1: ustawia normal map "Bubbles.png"
+		2: ustawia normal map "normal_map-defaults.jpg"
+		Set Standard Normal Map: ustawia standartową normal map 
+ComboBox pozwala wybrać:
+	1. (accurate) dokładne wyznaczanie koloru wypełniania
+	2. (interpolation) wyznaczanie koloru tylko w wierzchołkach trójkątów, a potem interpolowany 'do wnętrza'
